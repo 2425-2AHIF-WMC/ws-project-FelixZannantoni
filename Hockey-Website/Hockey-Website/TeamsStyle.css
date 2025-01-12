@@ -1,0 +1,83 @@
+body
+{
+    height: 100%;
+    background: darkgray;
+    font-family: 'Arial', sans-serif;
+}
+
+nav
+{
+    background-color: #333;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav a:hover
+{
+    color: lightblue;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+h3
+{
+    color: white;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+section
+{
+    margin-top: 1.5%;
+    color: black;
+    border-radius: 15px;
+    background: lightgray;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+section ul
+{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+section:hover ul
+{
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+.Team1 img, .Team2 img, .Team3 img, .Team4 img, .Team5 img, .Team6 img, .Team7 img, .Team8 img, .Team9 img,
+.Team11 img, .Team12 img, .Team14 img, .Team15 img, .Team17 img, .Team18 img, .Team19 img, .Team20 img,
+.Team21 img, .Team22 img, .Team23 img, .Team24 img, .Team25 img, .Team26 img, .Team27 img, .Team28 img,
+.Team29 img, .Team30 img, .Team32 img
+{
+    margin-top: -3%;
+    margin-left: -2%;
+    margin-bottom: -3%;
+
+}
+
+.Team5 img, .Team10 img, .Team13 img, .Team14 img, .Team16 img, .Team25 img, .Team31 img
+{
+    margin-top: -3%;
+    margin-left: -0.5%;
+    margin-bottom: -3%;
+}
