@@ -1,0 +1,390 @@
+body
+{
+    background-image: url('https://cdn.saleminteractivemedia.com/associated-press/data/photos/2017/186/35e49a03-9839-4e82-a929-f046a4e606ae.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.helmet-box
+{
+    height: 200px;
+    width: 200px;
+    top: 20px;
+    left: 650px;
+    position: absolute;
+}
+
+.skates-box
+{
+    height: 170px;
+    width: 200px;
+    top: 865px;
+    left: 125px;
+    position: absolute;
+    rotate: 20deg;
+}
+
+.shinpad-box
+{
+    height: 320px;
+    width: 150px;
+    top: 585px;
+    left: 330px;
+    position: absolute;
+    rotate: 30deg;
+}
+
+.lefthand-box
+{
+    height: 150px;
+    width: 100px;
+    top: 530px;
+    left: 670px;
+    position: absolute;
+    rotate: 35deg;
+}
+
+.righthand-box
+{
+    height: 150px;
+    width: 100px;
+    top: 370px;
+    left: 530px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.leftelbow-box
+{
+    height: 120px;
+    width: 100px;
+    top: 215px;
+    left: 410px;
+    position: absolute;
+    rotate: 35deg;
+}
+
+.rightelbow-box
+{
+    height: 120px;
+    width: 100px;
+    top: 360px;
+    left: 790px;
+    position: absolute;
+    rotate: 10deg;
+}
+
+.hockeystick-box
+{
+    height: 430px;
+    width: 100px;
+    top: 640px;
+    left: 820px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.trousers-box1
+{
+    height: 200px;
+    width: 120px;
+    top: 450px;
+    left: 450px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.trousers-box2
+{
+    height: 200px;
+    width: 120px;
+    top: 600px;
+    left: 500px;
+    position: absolute;
+    rotate: 30deg;
+}
+
+.chest-box1
+{
+    height: 280px;
+    width: 170px;
+    top: 190px;
+    left: 575px;
+    position: absolute;
+    rotate: -45deg;
+}
+
+.chest-box2
+{
+    height: 100px;
+    width: 150px;
+    top: 130px;
+    left: 500px;
+    position: absolute;
+}
+
+.chest-box3
+{
+    height: 135px;
+    width: 220px;
+    top: 220px;
+    left: 670px;
+    position: absolute;
+}
+
+
+.helmet-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 135px;
+    width: 280px;
+    top: 20px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.chest-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 200px;
+    width: 280px;
+    top: 150px;
+    left: 950px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.elbow-info
+
+{
+    display: none;
+    background-color: lightblue;
+    height: 130px;
+    width: 280px;
+    top: 190px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.hand-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 120px;
+    width: 280px;
+    top: 470px;
+    left: 950px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.hockeystick-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 130px;
+    width: 280px;
+    top: 700px;
+    left: 950px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.trousers-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 150px;
+    width: 280px;
+    top: 370px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.shinpad-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 280px;
+    width: 200px;
+    top: 560px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.skates-info
+{
+    display: none;
+    background-color: lightblue;
+    height: 170px;
+    width: 280px;
+    top: 870px;
+    left: 450px;
+    border-radius: 10px;
+    box-shadow: #503030 2px 1px 2px 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+
+.skates-box:hover ~ .skates-info
+{
+    display: block;
+}
+
+.helmet-box:hover ~ .helmet-info
+{
+    display: block;
+}
+
+.shinpad-box:hover ~ .shinpad-info
+{
+    display: block;
+}
+
+.lefthand-box:hover ~ .hand-info
+{
+    display: block;
+}
+
+.righthand-box:hover ~ .hand-info
+{
+    display: block;
+}
+
+.leftelbow-box:hover ~ .elbow-info
+{
+    display: block;
+}
+
+.rightelbow-box:hover ~ .elbow-info
+{
+    display: block;
+}
+
+.hockeystick-box:hover ~ .hockeystick-info
+{
+    display: block;
+}
+
+.trousers-box1:hover ~ .trousers-info
+{
+    display: block;
+}
+
+.trousers-box2:hover ~ .trousers-info
+{
+    display: block;
+}
+
+.chest-box1:hover ~ .chest-info
+{
+    display: block;
+}
+
+.chest-box2:hover ~ .chest-info
+{
+    display: block;
+}
+
+.chest-box3:hover ~ .chest-info
+{
+    display: block;
+}
+
+
+.nav-container
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-menu
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 50px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: width 0.4s ease;
+}
+
+.nav-menu a
+{
+
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px 15px;
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.4s ease;
+}
+
+.nav-container:hover .nav-menu
+{
+    width: 500px;
+}
+
+.nav-container:hover .nav-menu a
+{
+    opacity: 1;
+}
+
+nav a:hover
+{
+    color: lightblue;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
